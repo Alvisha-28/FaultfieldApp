@@ -21,37 +21,61 @@ This project was developed to:
 ________________________________________
 🧠 Core Concept
 When a ground fault occurs:
+
 •	Fault current flows from the cable into the soil
+
 •	Soil, being resistive, causes voltage to drop with distance
+
 •	This voltage gradient produces an electric field
+
 •	The electric field is strongest near the fault and weakens with distance
+
 The app models this behavior using quasi-static field theory assumptions and standard grounding equations.
 ________________________________________
 🧮 Theoretical Basis
+
 The simulation is based on:
+
 •	Ohm’s law for fault current estimation
+
 •	Current spreading in homogeneous soil
+
 •	Relationship between electric field and potential
+
 Key relationships used:
 •	Electric field decreases inversely with distance from the fault
+
 •	Electric potential varies logarithmically with distance
+
 •	Field direction follows the voltage gradient
+
 These assumptions are commonly used in grounding and earthing studies.
 ________________________________________
 📊 Features
 •	Interactive GUI built using MATLAB App Designer
+
 •	User-controlled parameters:
 o	Cable length, depth, and radius
+
 o	Fault location and resistance
+
 o	Applied voltage
+
 o	Soil resistivity
+
 •	Multiple visualization modes:
 o	Electric field magnitude contour plot
+
 o	Electric field vector (direction) plot
+
 o	3D electric field surface
+
 o	Field variation along cable axis
+
 o	Electric potential contour plot
+
 •	Touch / drag mode to interactively move the fault location
+
 •	Option to save simulation data for further analysis
 ________________________________________
 🛠️ How It Works
@@ -63,20 +87,25 @@ ________________________________________
 ________________________________________
 🎓 Applications
 •	Understanding underground cable fault behavior
+
 •	Learning electric field and potential distribution in soil
+
 •	Grounding system analysis
+
 •	Step and touch voltage studies
+
 •	Educational demonstrations of field theory concepts
 ________________________________________
 📦 Requirements
 •	MATLAB (R2020b or later recommended)
+
 •	App Designer (included with MATLAB)
 ________________________________________
 🚀 How to Run
 1.	Clone or download the repository
 2.	Open MATLAB
 3.	Run:
-4.	app = FaultEFieldApp;
-5.	Adjust parameters and click Run Simulation
+    app = FaultEFieldApp;
+4.	Adjust parameters and click Run Simulation
 
 
