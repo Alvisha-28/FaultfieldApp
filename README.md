@@ -1,16 +1,22 @@
 # FaultfieldApp
 MATLAB App Designer–based simulator for modeling electric field, potential, and current flow in soil due to underground cable ground faults.
+
 📌 Overview
 FaultEFieldApp is an interactive MATLAB App Designer–based tool developed to simulate and visualize the electric field and electric potential distribution around an underground cable fault.
 The application helps in understanding how fault current spreads through soil and how electric field intensity varies with distance, soil properties, and fault parameters.
 This project bridges basic field theory concepts with practical power engineering applications, making it suitable for students, educators, and researchers.
 ________________________________________
 🎯 Motivation
+
 Underground cable faults inject large currents into the surrounding soil, creating dangerous voltage gradients that can lead to step and touch voltage hazards.
 However, these effects are often difficult to visualize using equations alone.
+
 This project was developed to:
+
 •	Convert abstract field-theory equations into clear visual plots
+
 •	Help students understand current spreading and electric field behavior
+
 •	Provide an interactive learning tool for grounding and fault analysis
 ________________________________________
 🧠 Core Concept
