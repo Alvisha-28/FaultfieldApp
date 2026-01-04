@@ -55,6 +55,7 @@ ________________________________________
 •	Interactive GUI built using MATLAB App Designer
 
 •	User-controlled parameters:
+
 o	Cable length, depth, and radius
 
 o	Fault location and resistance
@@ -86,6 +87,7 @@ ________________________________________
 5.	Results are visualized using contour, vector, and surface plots
 ________________________________________
 🎓 Applications
+
 •	Understanding underground cable fault behavior
 
 •	Learning electric field and potential distribution in soil
@@ -102,6 +104,7 @@ ________________________________________
 •	App Designer (included with MATLAB)
 ________________________________________
 🚀 How to Run
+
 1.	Clone or download the repository
 2.	Open MATLAB
 3.	Run:
